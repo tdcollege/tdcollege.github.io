@@ -126,10 +126,9 @@ th, td {padding: 10px;}
 /*for the image in the photo.html*/
 
 .gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 150px;
+  margin: 5px; 
+  float:none;
+  width: 290px;
 }
 .gallery:hover {
   border: 1px solid #777;
@@ -139,7 +138,13 @@ th, td {padding: 10px;}
   width: 100%;
   height: auto;
 }
-.desc {
-  padding: 15px;
-  text-align: center;
+
+@media screen and (min-width:850px){
+  .gallery{
+    float: left;
+    margin:15px;
+  }
+  .footer{
+    margin-top: 700px;
+  }
 }
