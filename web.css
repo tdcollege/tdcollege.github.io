@@ -128,7 +128,6 @@ th, td {padding: 10px;}
 .gallery {
   margin: 5px; 
   float:none;
-  width: 290px;
 }
 .gallery:hover {
   border: 1px solid #777;
@@ -137,14 +136,4 @@ th, td {padding: 10px;}
 .gallery img {
   width: 100%;
   height: auto;
-}
-
-@media screen and (min-width:850px){
-  .gallery{
-    float: left;
-    margin:15px;
-  }
-  .footer{
-    margin-top: 700px;
-  }
 }
